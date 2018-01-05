@@ -1,0 +1,106 @@
+body {
+  margin: 20px 10px 20px 10px;
+  height: 100vh;
+  background-color: rgb(190, 214, 183);
+  font-family: 'Kalam', cursive;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  outline: none;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.icon {
+  padding: 25px 0 0 0;
+  width: 30%;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 70px;
+}
+
+.addBtn:hover {
+  border: 2px solid white;
+  color: #000;
+  border-radius: 20px;
+  height: 60%x;
+  width: 20%;
+  text-align: center;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.task-input {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  padding: 5px 10px;
+  margin: 30px;
+  height: 60px;
+  width: 600px;
+  border: 2px solid #000;
+  color: #000;
+  border-radius: 20px;
+  box-shadow: 8px 8px gray;
+}
+
+#tasks_ul {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.complete {
+  background-color: rgb(226, 80, 80);
+  text-decoration: line-through;
+}
+
+li {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  border: 2px solid rgb(10, 85, 20);
+  margin-bottom: 15px;
+  background-color: rgb(94, 150, 97);
+  border-radius: 20px;
+  list-style-type: square;
+}
+
+#clearBtn:hover {
+  border: 2px solid white;
+  color: #000;
+  border-radius: 20px;
+  height: 60%x;
+  width: 20%;
+  text-align: center;
+  background-color: rgb(226, 46, 23);
+  font-weight: bold;
+  color: white;
+  /* margin-bottom: 30px;
+  display: block; */
+}
+
+#clearBtn {
+  display: block;
+  margin-bottom: 30px;
+}
